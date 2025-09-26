@@ -1,0 +1,33 @@
+
+.counters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.counters .label {
+    font-size: 2rem;
+}
+
+.counters .value {
+    font-size: 2rem;
+}
+
+.counter-susceptible .label {
+  color: var(--s-line);
+}
+
+.counter-infected .label {
+  color: var(--i-line);
+}
+
+.counter-recovered .label {
+  color: var(--r-line);
+}
+
+.counter-deaths .label {
+  color: var(--d-line);
+}

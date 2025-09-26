@@ -1,0 +1,11 @@
+
+.footer-container {
+    padding-top: 3rem;
+    align-items: end;
+    justify-content: end;
+}
+
+.footer-container span {
+    font-size: 14px;
+    color: var(--text-color);
+}
