@@ -26,3 +26,9 @@
 .info-container li {
   margin-bottom: 0.3rem;
 }
+
+@media (max-width: 480px) {
+  .info-container {
+    margin-top: 3rem;
+  }
+}

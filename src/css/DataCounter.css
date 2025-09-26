@@ -31,3 +31,17 @@
 .counter-deaths .label {
   color: var(--d-line);
 }
+
+@media (max-width: 780px) {
+  .counters {
+    flex-wrap: wrap;
+  }
+
+  .counters .label {
+    font-size: 1.5rem;
+}
+
+.counters .value {
+    font-size: 1.5rem;
+}
+}
