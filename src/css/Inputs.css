@@ -81,3 +81,15 @@ input {
   justify-content: flex-end;
   margin-top: 2rem;
 }
+
+@media (max-width: 480px) {
+
+  .input-content {
+    gap: 1rem;
+  }
+
+  .input-container input {
+    width: 100%;
+    font-size: 22px;
+  }
+}
