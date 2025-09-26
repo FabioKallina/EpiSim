@@ -22,4 +22,9 @@
   .theme-container {
     right: 0.2rem
   }
+
+  .theme-toggle {
+    background-color: var(--bg-color);
+    border-radius: 20px;
+  }
 }
