@@ -113,7 +113,7 @@ function App() {
             setAllowVariant={setAllowVariant}
           />
           <div id="simulation">
-            <SIRDChart data={data} theme={theme} />
+            <SIRDChart data={data} theme={theme} running={running} />
           </div>
           <DataCounter data={data} theme={theme} />
           <SIRDInfo />

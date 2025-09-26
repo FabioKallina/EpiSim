@@ -15,7 +15,7 @@ import {
 } from "recharts";
 
 
-const SIRDChart = ({ data, theme }) => {
+const SIRDChart = ({ data, theme, running }) => {
   const [colors, setColors] = useState({
     sColor: '',
     iColor: '',
@@ -41,7 +41,7 @@ const SIRDChart = ({ data, theme }) => {
         <CartesianGrid strokeDasharray="3 3" stroke={colors.strokeColor} />
         <YAxis />
         <XAxis dataKey="day" />
-        <Tooltip />
+        {!running && <Tooltip />}
         <Legend />
         <Line type="monotone" dataKey="S" stroke={colors.sColor} strokeWidth={2} name="Susceptible" dot={false} isAnimationActive={true} animationDuration={0} animationEasing="linear" />
         <Line type="monotone" dataKey="I" stroke={colors.iColor} strokeWidth={2} name="Infected" dot={false} isAnimationActive={true} animationDuration={0} animationEasing="linear" />
