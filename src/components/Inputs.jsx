@@ -153,10 +153,10 @@ const Inputs = ({
             onChange={(e) => setSpeed(Number(e.target.value))}
             disabled={running}
           >
-            <option value={0}>Inst.</option>
             <option value={150}>Fast</option>
             <option value={300}>Medium</option>
             <option value={750}>Slow</option>
+            <option value={0}>Inst.</option>
           </select>
         </div>
       </form>

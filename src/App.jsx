@@ -27,7 +27,7 @@ function App() {
   const [allowVariant, setAllowVariant] = useState(false);
   const [allowVaccine, setAllowVaccine] = useState(false);
 
-  const [speed, setSpeed] = useState(0);
+  const [speed, setSpeed] = useState(100);
   const [running, setRunning] = useState(false);
 
   const runSimulation = () => {
